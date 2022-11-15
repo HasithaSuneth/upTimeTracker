@@ -1,0 +1,23 @@
+[
+    {
+        "website": [
+            {
+                "name": "Google",
+                "url": "https://google.com"
+            },
+            {
+                "name": "Facebook",
+                "url": "https://facebook.com"
+            }
+        ],
+        "error_list": [],
+        "ignore_error_list": []
+    },
+    {
+        "to_email_info": {
+            "name": "your_name",
+            "email": "your_email_address"
+        },
+        "cc_email_list": []
+    }
+]

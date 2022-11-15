@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Monitor is UP : $site_name</title>
+</head>
+
+<body style="font-family: 'Roboto', Arial, sans-serif; color: #131a26; background: #fefefe; line-height: 1.3em;">
+  <div
+    style="font-family: 'Roboto', Arial, sans-serif; color: #131a26; background: #fefefe; box-sizing: border-box; line-height: 1.3em;">
+    <div style="max-width: 600px; margin: 30px auto 0 = auto; padding: 0 10px;">
+      <div
+        style="background: #ffffff; border-radius: 6px; box-shadow: 0 20px 40px 0 rgba(0,0,0,0.1); padding:25px; border: 1px solid #efefef; font-size: 14px; margin-bottom: 25px;">
+        <div>
+          <p style="line-height: 20px;">Hello $username,</p>
+          <p style="line-height: 20px;">The latest incident has been resolved and your monitor is up again. Good job!
+          </p>
+        </div>
+        <div style="padding:20px; background-color: #f9f9f9; border-radius: 6px; margin-top: 25px; line-height: 16px;">
+          <div style="font-size: 12px; color:#687790;">Monitor name</div>
+          <h2 style="font-size: 14px; margin-bottom: 5px; margin-top: 3px;">$site_name</h2>
+          <hr style="border: 1px solid #dedede; border-bottom: 0;margin: 10px 0;">
+          <div style="color: #687790; font-size:12px;">Checked URL</div>
+          <h2 style="font-size: 14px;margin-bottom: 5px; margin-top: 3px; line-height: 16px;"><code>
+                <a href="$site_url" style="color: #131a26 !important; text-decoration: none !important;">$site_url</a></code>
+          </h2>
+          <hr style="border: 1px solid #dedede;border-bottom: 0; margin: 10px 0;">
+          <div style="color:#687790; font-size: 12px;">Root cause</div>
+          <h2 style="font-size: 14px; margin-bottom: 5px; margin-top: 3px;">$error_code</h2>
+          <hr style="border: 1px solid #dedede; border-bottom: 0;margin: 10px 0;">
+          <div style="font-size: 12px; color:#687790;">Incident started at</div>
+          <h2 style="font-size:14px; margin-bottom: 5px; margin-top: 3px;">$error_start_time</h2>
+          <hr style="border: 1px solid #dedede; border-bottom: 0;margin: 10px 0;">
+          <div style="font-size: 12px; color:#687790;">Resolved at</div>
+          <h2 style="font-size: 14px; margin-bottom: 5px; margin-top: 3px;">$error_resolved_time</h2>
+          <hr style="border: 1px solid #dedede; border-bottom: 0;margin: 10px 0;">
+          <div style="font-size: 12px; color:#687790;">Duration</div>
+          <h2 style="font-size: 14px;margin-bottom: 5px; margin-top: 3px;">$error_duration</h2>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid #dedede; font-size: 12px; color:#687790; text-align: center; padding: 25px 0;">
+        This is an auto-generated email by
+        <i style="color: #3bd671 !important;">UpTimeTracker</i>.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
