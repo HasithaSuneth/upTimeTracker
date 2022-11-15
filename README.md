@@ -6,7 +6,7 @@ Cronjob (on Linux) or Task Scheduler (on Windows) can be used to execute the scr
 ## How to run the script;
 ``python3 upTimeTracker.py -u <email_username> -p <email_password> -s <email_server> -o <email_port> -f <email_from>``
 
-## Screenshots of the notification email;
+## Screenshots of the notification emails;
 
 Down Time             |  Up Time
 :-------------------------:|:-------------------------:
