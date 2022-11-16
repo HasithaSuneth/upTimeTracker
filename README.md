@@ -1,5 +1,5 @@
 # upTimeTracker
-Track websites and notify users via email when websites go down and get up again. This script also logs every up and down incident, and the user can add errors to the ignore list in order to ignore unwanted notifications. Include the name of the site, the URL, the reason for the downtime, the resolved time, and the duration of the incident in the notification email. 
+Track websites and notify users via email when websites go down and get up again. This script also **logs** every up and down incident, and the user can add errors to the **ignore list** in order to ignore unwanted notifications. Include the name of the site, the URL, the reason for the downtime, the resolved time, and the duration of the incident in the notification email. 
 
 Cronjob (on Linux) or Task Scheduler (on Windows) can be used to execute the script. The user only needs to interact with the ``website.json`` file placed in the ``assets`` directory. The website.json file can be used to customize email settings, add additional websites for tracking, and add ignore errors.
 
